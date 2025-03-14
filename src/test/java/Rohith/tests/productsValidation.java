@@ -31,6 +31,8 @@ public class productsValidation extends BaseTest {
 		expectedList=expectedList.stream().sorted().toList();
 		Assert.assertEquals(productList,expectedList);
 		
+		System.out.println("i made chnages");
+		
 		
 	}
 	@Test
