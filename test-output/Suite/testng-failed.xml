@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Rohith.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="methods" name="Rohith.tests.productsValidation(failed)">
+    <classes>
+      <class name="Rohith.tests.productsValidation">
+        <methods>
+          <include name="verifyaddedProducts"/>
+          <include name="launchApplication"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- Rohith.tests.productsValidation -->
+    </classes>
+  </test> <!-- Rohith.tests.productsValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
